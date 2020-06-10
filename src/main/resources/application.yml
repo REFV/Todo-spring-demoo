@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  mvc:
+    view:
+      suffix: .jsp
+      prefix: /WEB-INF/jsp/
+  datasource:
+    url: jdbc:h2:~/testdb
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
